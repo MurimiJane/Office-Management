@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.section1{
+    width:100%;
+    height:100vh;
+}
+
+.navbar{
+    height:10vh;
+    background-color: #e3f2fd;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.profiledata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.userNams h6{
+    margin: 0;
+    padding: 0;
+}
+
+.userNams p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.userNams{
+    margin-left: 10px;
+}
+
+.personalprofile{
+    display: flex;
+}
+
+.logocontainer{
+    z-index: 20;
+    padding-left:3%;
+}
+
+.logo{
+    height:7vh;
+    z-index: 20;
+    
+}
+
+.profileimg{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftdiv{
+    z-index:10;
+    width:20%;
+    height:100vh;
+    background-color: #e3f2fd;
+}
+
+.leftdiv p{
+    padding-left:12%;
+
+}
+
+.leftdiv ul{
+     padding-left:4%;
+     
+}
+
+.leftdiv ul li{
+    padding-left:10%;
+    list-style-type: none;
+}
+
+.rightdiv{
+    width:80%;
+    z-index:0;
+    height:100vh;
+    padding: 50px;
+}
+
+.thesnips{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.theSnippets{
+    height: 150px;
+    width: 290px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    
+}
+
+.head{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.mainsett{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+
+.sett1{
+    width: 50%;
+    height: 100%;
+}
+
+.sett2{
+    width: 45%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.modal{
+    z-index:20 ;
+}
+
+body.modal-open div.modal-backdrop { 
+    z-index: 20; 
+}
+
+.modal-content{
+    z-index: 20;
+}
+
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+}
